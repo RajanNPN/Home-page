@@ -1,0 +1,126 @@
+/* *{
+    display: flex;
+    flex-wrap: wrap;
+} */
+/* .nav{
+    background: linear-gradient(135deg, #FFAA85 0%, #B3315F 100%);
+    position: sticky;
+    top:0%;
+} */
+.left{
+    position: absolute;
+    left: 34px;
+    top: 10px;
+    height: 25px;
+    font-size: 25px;
+    display:inline-block;
+
+}
+.mid{
+    position: absolute;
+    top: -16px;;
+    left: 225px;
+    
+}
+.mid li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+   
+}
+.mid li{
+    list-style: none;
+    display:flex;
+    /* justify-content: center; */
+     display:inline-block;
+     margin:12px 32px;
+}
+.mid li a:hover{
+    text-decoration: underline;
+}
+.para{
+    background: linear-gradient(135deg, #FFAA85 0%, #B3315F 100%);
+    font-size: 22px;
+     margin: 70px;
+     padding: 30px;
+     height: 369px;
+     border-radius: 60px;
+     /* position: relative;
+     left:0px;
+     top:0px;
+     z-index: 10; */
+}
+#para2{
+    font-size: 5rem;
+    padding:0px 2px;
+    margin: -39px 49px;
+}
+img{
+    height: 425px;
+   width: 420px;
+   border-radius: 60px;
+   display: inline-block;
+   position:relative;
+   left: 920px;
+   top: -148px;
+}
+button{
+    display:inline-block;
+    color:white;
+    background: #0F0000;
+    border-radius: 7px;
+    position: absolute;
+    width: 136px;
+    height: 60px;
+    left: 81px;
+    top: 649px;
+    cursor: pointer;
+}
+.botton button:hover{
+    text-decoration: underline;
+}
+.watch{
+position: absolute;
+/* width: 163px;
+height: 54px; */
+left: 392px;
+top: 649px;
+}
+.watch:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.about h2{
+position: absolute;
+width: 221px;
+height: 74px;
+left: 606px;
+top: 803px;
+}
+.about p{
+ position: absolute;
+left: 536px;
+top: 848px;
+}
+.service h1{
+    font: size 49px;
+    position: absolute;
+    left: 535px;
+    top: 906px;
+}
+#sport{
+    position: relative;
+    right: 710px;
+    top: 159px;
+}
+#sport img{
+    height: 268px;
+    width: 238px;
+    margin:0px 10px;
+    padding: 12px;
+    cursor: pointer;
+}
+#sport span img:hover{
+    transform:translate(0px,3px) scale(1.1,1.1)
+   
+}
